@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bag"
+    tools:context=".Kalima_page5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageIcon6"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:src="@drawable/vectotir" />
+
+        <TextView
+            android:id="@+id/textviewtitelkalima17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="Kalima Rade Kufr"
+            android:textColor="@color/yello"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="982dp"
+            android:orientation="vertical"
+            app:cardBackgroundColor="#025348"
+            app:cardCornerRadius="20sp">
+
+            <TextView
+                android:id="@+id/textviewtitelkalima18"
+                android:layout_width="402dp"
+                android:layout_height="143dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/Kalimapart13"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/textviewtitelkalima19"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="524dp"
+                android:layout_marginTop="90dp"
+                android:text="@string/Kalimapart14"
+                android:textColor="@color/yello"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textviewtitelkalima20"
+
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="371dp"
+                android:layout_marginTop="500dp"
+                android:text="@string/Kalimapart12"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+</ScrollView>
