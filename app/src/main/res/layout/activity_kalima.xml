@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
+<!--
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_marginTop="10dp"
@@ -22,12 +22,12 @@
         android:background="@drawable/bag">
 
 
-        <ImageView
+        &lt;!&ndash;<ImageView
             android:id="@+id/imageIcon"
             android:layout_width="58dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/vectotir" />
+            android:src="@drawable/vectotir" />&ndash;&gt;
 
         <TextView
             android:id="@+id/textviewtitelkalima"
@@ -40,14 +40,23 @@
             android:textSize="30dp"
             android:textStyle="bold" />
 
-    </LinearLayout>
+    </LinearLayout>-->
 
-    <View
+    <!--<View
         android:layout_width="match_parent"
         android:layout_height="14dp"
         android:background="@drawable/bag">
 
-    </View>
+    </View>-->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="30dp"
+            android:theme="@style/toolbar_theme"
+            android:background="@drawable/navigation_toolbar">
+
+        </androidx.appcompat.widget.Toolbar>
 
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
@@ -58,7 +67,7 @@
         <ImageView
             android:id="@+id/imagekalima1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@drawable/bag2"
             android:src="@drawable/content" />
 

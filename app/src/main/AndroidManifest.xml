@@ -9,12 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Kalima_page5"></activity>
-        <activity android:name=".Kalima_page4" />
-        <activity android:name=".Kalima_page3" />
-        <activity android:name=".Kalima_page2" />
-        <activity android:name=".Kalima_page1" />
-        <activity android:name=".Kalima" />
+        <activity android:name=".Kalima_page5"
+            android:parentActivityName=".Kalima">
+
+        </activity>
+        <activity android:name=".Kalima_page4"
+            android:parentActivityName=".Kalima"/>
+        <activity android:name=".Kalima_page3"
+            android:parentActivityName=".Kalima"/>
+        <activity android:name=".Kalima_page2"
+            android:parentActivityName=".Kalima"/>
+        <activity android:name=".Kalima_page1"
+            android:parentActivityName=".Kalima"/>
+        <activity android:name=".Kalima"
+            android:parentActivityName=".MainActivity"/>
+
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

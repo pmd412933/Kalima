@@ -12,29 +12,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_marginTop="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageIcon6"
-            android:layout_width="wrap_content"
-            android:layout_height="51dp"
-            android:src="@drawable/vectotir" />
-
-        <TextView
-            android:id="@+id/textviewtitelkalima17"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
-            android:text="Kalima Rade Kufr"
-            android:textColor="@color/yello"
-            android:textSize="30dp"
-            android:textStyle="bold" />
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
 
-    </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar5"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/navigation_toolbar"
+                android:theme="@style/toolbar_theme">
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </LinearLayout>
 
 
     <LinearLayout

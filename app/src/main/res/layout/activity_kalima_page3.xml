@@ -8,7 +8,7 @@
     android:background="@drawable/bag"
     android:orientation="vertical"
     tools:context=".Kalima_page2">
-    <LinearLayout
+   <!-- <LinearLayout
         android:layout_width="match_parent"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content">
@@ -38,8 +38,18 @@
         android:background="@drawable/bag">
 
     </View>
+-->
+    <androidx.appcompat.widget.Toolbar
+    android:id="@+id/toolbar2"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+        android:theme="@style/toolbar_theme"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/navigation_toolbar">
 
-    <androidx.cardview.widget.CardView
+</androidx.appcompat.widget.Toolbar>
+
+<androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="432dp"
         android:orientation="vertical"
